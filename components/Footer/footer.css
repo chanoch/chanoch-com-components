@@ -1,0 +1,16 @@
+/**
+ * Layouts: Footer
+ */
+ .section_footer
+ {
+     margin-top: auto; 
+     padding: 2rem 0;
+ }
+ @media (max-width: 767px)
+ {
+     .section_footer
+     {
+         text-align: center;
+     }
+ }
+ 

@@ -1,0 +1,11 @@
+.signature { font-family: 'herrvonmuellerhoff-regular'; font-size: 28px;}
+
+.signature_img { margin-bottom: 3rem; }
+
+@media only screen and (min-width: 40.063em) { 
+    .signature { font-size: 48px; }
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 64.063em) { 
+    .signature { font-size: 68px; }
+} /* min-width 1025px, large screens */

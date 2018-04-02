@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'herrvonmuellerhoff-regular';
+    src: url('/assets/fonts/HerrVonMuellerhoff-Regular.woff') format('woff'),
+         url('/assets/fonts/HerrVonMuellerhoff-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

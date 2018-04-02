@@ -1,0 +1,47 @@
+.social__list
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    list-style: none;
+
+    text-align: right;
+}
+@media (max-width: 767px)
+{
+    .social__list
+    {
+        text-align: center;
+    }
+}
+.social__list > li
+{
+    display: inline-block;
+
+    padding: 0 1rem;
+}
+.social__list > li > a
+{
+    transition: color .3s; 
+
+    color: #ababab;
+}
+.social__list > li > a:hover,
+.social__list > li > a:focus,
+.social__list > li > a:active
+{
+    color: #efefef;
+}
+
+
+
+.section_blog-item .social__list
+{
+    text-align: left;
+}
+#modal .social__list
+{
+    text-align: center;
+}
+

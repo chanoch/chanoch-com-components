@@ -1,0 +1,29 @@
+{
+  "name": "@chanoch/chanoch-com-components",
+  "version": "0.0.1",
+  "description": "React components for chanoch.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanoch/chanoch-com-components.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "chanoch.com"
+  ],
+  "author": "Chanoch <chanoch@clearbrook.it> (https://clearbrook.it)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/chanoch/chanoch-com-components/issues"
+  },
+  "homepage": "https://github.com/chanoch/chanoch-com-components#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {}
+}
