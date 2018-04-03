@@ -7,8 +7,8 @@ import ImageLink from './components/ImageLink/ImageLink';
 import Navigation from './components/Navigation/Navigation';
 import PhoneLink from './components/PhoneLink/PhoneLink';
 import Quote from './components/Quote/Quote';
-import ReservationForm from './components/ReservationForm/ReservationForm';
 import Signature from './components/Signature/Signature';
+import Testimonials from './components/Testimonials/Testimonials';
 
 var Ccc = {
     CallToAction,
@@ -20,7 +20,6 @@ var Ccc = {
     Navigation,
     PhoneLink,
     Quote,
-    ReservationForm,
     Signature
 }
 
