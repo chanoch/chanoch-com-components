@@ -51,9 +51,9 @@ module.exports = {
             { test: /\.js.?$/, loader: 'babel-loader', exclude: /node_modules/ },
         ],
     },
-    externals: {
-        "react": "React",
-        "react-dom": "ReactDOM"
-    },
+    externals: [
+        "react",
+        "react-dom"
+    ],
     plugins: getPlugins()
 }

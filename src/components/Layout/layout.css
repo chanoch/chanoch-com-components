@@ -1,0 +1,23 @@
+/** layout.css */
+.section
+{
+    padding: 1rem 0;
+}
+@media (max-width: 991px)
+{
+    .section
+    {
+        padding: 3rem 0;
+    }
+}
+
+section
+{
+    display: block;
+}
+
+.justify-content-between
+{
+    -webkit-box-pack: justify !important;
+    justify-content: space-between !important;
+}

@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("React"));
+		module.exports = factory(require("react"));
 	else if(typeof define === 'function' && define.amd)
-		define("chanoch-com-components", ["React"], factory);
+		define("chanoch-com-components", ["react"], factory);
 	else if(typeof exports === 'object')
-		exports["chanoch-com-components"] = factory(require("React"));
+		exports["chanoch-com-components"] = factory(require("react"));
 	else
-		root["chanoch-com-components"] = factory(root["React"]);
+		root["chanoch-com-components"] = factory(root["react"]);
 })(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_5__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
